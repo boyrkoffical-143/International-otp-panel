@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+:root { color-scheme: dark; }
+body { margin: 0; background: #0b1020; color: #edf2ff; font-family: Arial, Helvetica, sans-serif; }
+main { max-width: 900px; margin: 0 auto; padding: 36px 20px 60px; }
+.card { background: #121a2e; border: 1px solid #293652; border-radius: 16px; padding: 22px; margin: 18px 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); margin-bottom: 8px; }
+h2 { margin-top: 0; }
+p, li { line-height: 1.65; color: #c6d1e8; }
+.badge { display: inline-block; border: 1px solid #3b557d; border-radius: 999px; padding: 5px 10px; font-size: 12px; color: #b7d4ff; }
+code { background: #080d18; padding: 3px 6px; border-radius: 6px; overflow-wrap: anywhere; }
+.notice { border-left: 3px solid #f0b64a; padding: 10px 14px; background: #211d17; }
+a { color: #9dc5ff; }
